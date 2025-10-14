@@ -10,12 +10,6 @@ import {
 } from 'lucide-react';
 import './ProductPage.css';
 
-interface ProductVariant {
-  type: 'size' | 'color';
-  value: string;
-  available: boolean;
-}
-
 const mockProduct = {
   id: '1',
   name: 'Беспроводные наушники Pro Max',
