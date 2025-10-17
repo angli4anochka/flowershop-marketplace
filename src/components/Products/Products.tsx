@@ -193,7 +193,7 @@ const products: Product[] = [
     price: 5800,
     discountPrice: 4300,
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1655987809304-d4260622614b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBpb25zfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600?w=400&h=400&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=800&h=800&fit=crop',

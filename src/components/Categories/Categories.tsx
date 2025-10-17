@@ -28,7 +28,7 @@ const categories: Category[] = [
     id: '4',
     name: 'Пионы',
     description: 'Нежные пионы премиум класса',
-    image: 'https://images.unsplash.com/photo-1588328989946-b1c12db18c93?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1591886960571-74d43a9d4166?w=400&h=300&fit=crop',
     productCount: 42,
   },
   {
