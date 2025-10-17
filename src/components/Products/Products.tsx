@@ -47,7 +47,7 @@ const products: Product[] = [
     images: [
       'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=800&h=800&fit=crop',
-      'https://images.unsplash.com/photo-1487070183336-b863922373d4?w=800&h=800&fit=crop',
+      'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1464297162577-f5295c892194?w=800&h=800&fit=crop',
     ],
     category: 'Букеты',
@@ -103,9 +103,9 @@ const products: Product[] = [
     price: 3800,
     discountPrice: 2800,
     rating: 4.8,
-    image: 'https://images.unsplash.com/photo-1487070183336-b863922373d4?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=400&fit=crop',
     images: [
-      'https://images.unsplash.com/photo-1487070183336-b863922373d4?w=800&h=800&fit=crop',
+      'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1464297162577-f5295c892194?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=800&fit=crop',
@@ -166,7 +166,7 @@ const products: Product[] = [
     image: 'https://images.unsplash.com/photo-1464297162577-f5295c892194?w=400&h=400&fit=crop',
     images: [
       'https://images.unsplash.com/photo-1464297162577-f5295c892194?w=800&h=800&fit=crop',
-      'https://images.unsplash.com/photo-1487070183336-b863922373d4?w=800&h=800&fit=crop',
+      'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=800&h=800&fit=crop',
     ],
@@ -193,9 +193,9 @@ const products: Product[] = [
     price: 5800,
     discountPrice: 4300,
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop',
+    image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=400&h=400&fit=crop',
     images: [
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop',
+      'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1464297162577-f5295c892194?w=800&h=800&fit=crop',
@@ -227,7 +227,7 @@ const products: Product[] = [
     images: [
       'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&h=800&fit=crop',
-      'https://images.unsplash.com/photo-1487070183336-b863922373d4?w=800&h=800&fit=crop',
+      'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=800&h=800&fit=crop',
       'https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=800&h=800&fit=crop',
     ],
     category: 'Букеты',

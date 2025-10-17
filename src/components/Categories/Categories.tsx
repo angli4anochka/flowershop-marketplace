@@ -28,7 +28,7 @@ const categories: Category[] = [
     id: '4',
     name: 'Пионы',
     description: 'Нежные пионы премиум класса',
-    image: 'https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1588328989946-b1c12db18c93?w=400&h=300&fit=crop',
     productCount: 42,
   },
   {
@@ -42,7 +42,7 @@ const categories: Category[] = [
     id: '6',
     name: 'Орхидеи',
     description: 'Экзотические орхидеи',
-    image: 'https://images.unsplash.com/photo-1487070183336-b863922373d4?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=300&fit=crop',
     productCount: 34,
   },
 ];
