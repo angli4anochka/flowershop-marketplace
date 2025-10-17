@@ -29,7 +29,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--text);
   background-color: var(--bg);
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 14px;
   transition: background-color 0.3s ease;
 }
 

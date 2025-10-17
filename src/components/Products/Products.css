@@ -51,8 +51,8 @@
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-weight: 700;
-  font-size: 0.875rem;
+  font-weight: 600;
+  font-size: 13px;
   box-shadow: 0 4px 15px rgba(236, 72, 153, 0.4);
 }
 
@@ -95,8 +95,8 @@
 }
 
 .product-name {
-  font-size: 1.125rem;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
   margin-bottom: 0.75rem;
   color: var(--text);
   overflow: hidden;
@@ -125,8 +125,8 @@
 
 .rating-text {
   margin-left: 0.5rem;
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 500;
   color: var(--text-light);
 }
 
@@ -138,13 +138,13 @@
 }
 
 .price-current {
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 700;
   color: var(--primary);
 }
 
 .price-old {
-  font-size: 1.125rem;
+  font-size: 15px;
   color: var(--text-light);
   text-decoration: line-through;
 }
@@ -160,14 +160,14 @@
   }
 
   .product-name {
-    font-size: 0.95rem;
+    font-size: 14px;
   }
 
   .price-current {
-    font-size: 1.25rem;
+    font-size: 16px;
   }
 
   .price-old {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
