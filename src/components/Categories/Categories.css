@@ -6,7 +6,7 @@
 .section-title {
   font-size: 32px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   margin-bottom: 3rem;
   background: linear-gradient(135deg, var(--primary), var(--secondary));
   -webkit-background-clip: text;
@@ -22,22 +22,23 @@
 
 .category-card {
   position: relative;
-  background: var(--bg);
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 4px 20px var(--shadow);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
+  height: 200px;
 }
 
 .category-card:hover {
-  box-shadow: 0 10px 40px var(--shadow-lg);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
 }
 
 .category-image-container {
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 200px;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -45,11 +46,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .category-card:hover .category-image {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .category-overlay {
@@ -58,52 +59,52 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.3));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent);
 }
 
 .category-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 2;
+  color: white;
+  text-align: center;
 }
 
 .category-name {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--text);
+  color: white;
 }
 
 .category-description {
-  color: var(--text-light);
-  margin-bottom: 1rem;
-  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.75rem;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .category-count {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
   color: white;
-  border-radius: 20px;
-  font-size: 13px;
+  border-radius: 12px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 .category-hover-effect {
-  position: absolute;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  background: white;
-  color: var(--primary);
-  padding: 0.75rem 1.5rem;
-  border-radius: 30px;
-  font-weight: 600;
-  box-shadow: 0 5px 20px rgba(99, 102, 241, 0.3);
-  transition: all 0.3s ease;
-}
-
-.category-card:hover .category-hover-effect {
-  background: var(--primary);
-  color: white;
+  display: none;
 }
 
 @media (max-width: 768px) {
