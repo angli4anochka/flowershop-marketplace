@@ -393,8 +393,6 @@ export const Products = ({ addToCart, toggleFavorite, favorites }: ProductsProps
               className="product-card"
               variants={itemVariants}
               whileHover={{ y: -8 }}
-              onClick={() => handleProductClick(product)}
-              style={{ cursor: 'pointer' }}
             >
               <div className="product-image-container">
                 <img
@@ -449,6 +447,15 @@ export const Products = ({ addToCart, toggleFavorite, favorites }: ProductsProps
                     </span>
                   )}
                 </div>
+
+                <motion.button
+                  className="product-order-btn"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => handleProductClick(product)}
+                >
+                  Заказать
+                </motion.button>
               </div>
             </motion.div>
           ))}
