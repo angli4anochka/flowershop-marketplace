@@ -5,7 +5,6 @@ import { Footer } from './components/Footer/Footer';
 import { AuthModal } from './components/AuthModal/AuthModal';
 import { CartModal } from './components/CartModal/CartModal';
 import { HomePage } from './pages/HomePage';
-import { ProductPage } from './pages/ProductPage';
 import type { CartItem } from './types/index';
 import './App.css';
 
@@ -78,7 +77,6 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<HomePage addToCart={addToCart} toggleFavorite={toggleFavorite} favorites={favorites} />} />
-            <Route path="/product/:id" element={<ProductPage />} />
           </Routes>
         </main>
         <Footer />
